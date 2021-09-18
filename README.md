@@ -1,17 +1,17 @@
-# JavaScript Web-API Quiz Game #
+# JavaScript Web-API Quiz Game # <a name="top">
 
 GitHub Repository: https://github.com/JeffGoji/JavaScript-Web-API-Quiz
 
 Deployable link: https://jeffgoji.github.io/JavaScript-Web-API-Quiz/
 
 
-## Table of contents ##
-* Table of Contents
-* Description
-* Installation
-* Pictures
+## Table of contents ## <a name="table"></a>
+* [Table of Contents](#table)
+* [Description](#description)
+* [Installation](#install)
+* [Pictures](#pictures)
 
-## Description ##
+## Description ##<a name="description"></a>
 This is a JavaScript API quiz game as part of a coding challenge.
 The objective is to complete a 5 question quiz about JavaScript within a set amount of time (60 seconds in this case).
 If you answer a question incorrectly 10 seconds will be deducted from the time and end the challenge sooner.
@@ -21,14 +21,14 @@ The game will end once the counter runs out, and your final counter time will be
 At the end of the challenge you will have the option to enter your initials in a high-score scoreboard, which accesses local storage in your browser. 
 You can also clear it from local storage by clicking the "Clear Highscores" button which deletes it from local storage.
 
-## Installation ## 
+## Installation ##<a name="install"></a>
 You can download it from this Github repository:
 GitHub Repository: https://github.com/JeffGoji/JavaScript-Web-API-Quiz
 
 Or you can see it in action and deployed at:
 Deployable link: https://jeffgoji.github.io/JavaScript-Web-API-Quiz/
 
-## Pictures ##
+## Pictures ##<a name="pictures"></a>
 
 Application front page:
 ![Front page](https://jeffgoji.github.io/JavaScript-Web-API-Quiz//screenshots/screen1.png)
@@ -42,4 +42,4 @@ Application initials prompt:
 Application High-Score page showing the highest scores:
 ![High-Score page](https://jeffgoji.github.io/JavaScript-Web-API-Quiz//screenshots/screen4.png)
 
-
+[Back to top](#top)
