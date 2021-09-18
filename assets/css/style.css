@@ -14,13 +14,17 @@ header {
 header h1 {
   color: white;
   text-align: center;
-  text-shadow: 1px 1px 5px rgb(111, 0, 255), 1px 1px 5px rgb(0, 0, 0),
-    1px 1px 5px rgb(0, 0, 0);
+  text-shadow: 1px 1px 7px rgb(0, 119, 255), 1px 1px 7px rgb(0, 119, 255),
+    1px 1px 5px rgb(0, 0, 0), 1px 1px 5px rgb(0, 0, 0);
 }
 
-/**/
+/*timer and page elements*/
 .hide {
   display: none;
+}
+
+.timer {
+  font-size: 20px;
 }
 
 .start {
@@ -36,6 +40,8 @@ header h1 {
   color: gray;
   border-top: 2px solid rgb(201, 193, 193);
 }
+
+/*Link and button elements*/
 
 a {
   color: black;
@@ -59,6 +65,13 @@ button:hover {
   color: rgb(255, 255, 255);
   background-color: #187cff;
   cursor: pointer;
+  text-align: justify;
+}
+
+.choices button::first-letter {
+  font-size: 130%;
+  font-weight: bold;
+  margin-right: 10px;
 }
 
 input[type="text"] {
