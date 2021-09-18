@@ -15,11 +15,6 @@ header h1 {
     1px 1px 5px rgb(0, 0, 0);
 }
 
-.wrapper {
-  margin: 100px auto 0 auto;
-  max-width: 600px;
-}
-
 .hide {
   display: none;
 }
@@ -29,7 +24,8 @@ header h1 {
 }
 
 .feedback {
-  font-style: italic;
+  font-family: "Lobster", cursive;
+  font-weight: bold;
   font-size: 120%;
   margin-top: 20px;
   padding-top: 10px;
@@ -53,6 +49,10 @@ button:hover {
 
 .choices button {
   display: block;
+  width: 300px;
+  border-radius: 5px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(111, 0, 255);
 }
 
 input[type="text"] {
@@ -71,5 +71,5 @@ li {
 }
 
 li:nth-child(odd) {
-  background-color: #dfdae7;
+  background-color: #77b2ff;
 }
