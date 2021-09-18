@@ -12,6 +12,8 @@ header {
 }
 
 header h1 {
+  color: white;
+  text-align: center;
   text-shadow: 1px 1px 5px rgb(111, 0, 255), 1px 1px 5px rgb(0, 0, 0),
     1px 1px 5px rgb(0, 0, 0);
 }
@@ -45,6 +47,7 @@ a:hover {
   color: #70707a;
 }
 
+/*button styling for the JavaScript elements*/
 button:hover {
   background-color: silver;
 }
@@ -54,17 +57,21 @@ button:hover {
   width: 300px;
   border-radius: 5px;
   color: rgb(255, 255, 255);
-  background-color: rgb(111, 0, 255);
+  background-color: #187cff;
+  cursor: pointer;
 }
 
 input[type="text"] {
   font-size: 100%;
 }
 
+/*List styling for score page*/
+
 ol {
   padding-left: 0px;
   max-height: 400px;
   overflow: auto;
+  text-align: center;
 }
 
 li {

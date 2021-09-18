@@ -6,22 +6,42 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Highscores</title>
+    <title>High Scores</title>
 
+    <!--Bootstrap 5-->
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+        integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+        integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+
+    <!--CSS style sheets-->
     <link rel="stylesheet" href="assets/css/style.css" />
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@1,600&display=swap" rel="stylesheet">
 </head>
+<header class="container-fluid">
+    <div class="row text-center">
+        <h1 class=" display-1">High-Scores!</h1>
+</header>
 
 <body>
-    <div class="wrapper">
-        <h1>Highscores</h1>
-        <ol id="highscores"></ol>
+    <section class="container-fluid">
+        <main class="row justify-content-center">
+            <div class="col-6">
+                <h1 class="text-center">Congratulations!</h1>
+                <ol id="highscores"></ol>
 
-        <a href="index.html"><button>Go Back</button></a>
-        <button id="clear">Clear Highscores</button>
-    </div>
+                <a href="index.html"><button class="btn-lg btn-primary">Go Back</button></a>
+                <button id="clear" class="btn-lg btn-primary">Clear Highscores</button></a>
+            </div>
+        </main>
 
-    <script src="assets/js/score.js"></script>
+        <script src="assets/js/score.js"></script>
+    </section>
 </body>
 
 </html>
