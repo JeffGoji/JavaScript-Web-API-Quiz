@@ -16,7 +16,7 @@ This is a JavaScript API quiz game as part of a coding challenge.
 The objective is to complete a 5 question quiz about JavaScript within a set amount of time (60 seconds in this case).
 If you answer a question incorrectly 10 seconds will be deducted from the time and end the challenge sooner.
 If you get an answer correct it will say "Correct!"
-If you get an answer wrong i will say "Wrong!"
+If you get an answer wrong it will say "Wrong!"
 The game will end once the counter runs out, and your final counter time will be the score.
 At the end of the challenge you will have the option to enter your initials in a high-score scoreboard, which accesses local storage in your browser. 
 You can also clear it from local storage by clicking the "Clear Highscores" button which deletes it from local storage.
