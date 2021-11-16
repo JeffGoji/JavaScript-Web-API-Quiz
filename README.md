@@ -12,7 +12,7 @@ Deployable link: https://jeffgoji.github.io/JavaScript-Web-API-Quiz/
 * [Pictures](#pictures)
 
 ## Description ##<a name="description"></a>
-This is a JavaScript API quiz game as part of a coding challenge.
+This is a JavaScript API quiz game.
 The objective is to complete a 5 question quiz about JavaScript within a set amount of time (60 seconds in this case).
 If you answer a question incorrectly 10 seconds will be deducted from the time and end the challenge sooner.
 If you get an answer correct it will say "Correct!"
